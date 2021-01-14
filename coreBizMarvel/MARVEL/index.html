@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">
+    
+    <title>PERSONAGENS DA MARVEL</title>
+</head>
+<body>    
+        <div class="header">
+            <img src="./img/MARVEL.png" alt="logo Marvel">
+            <img src="./img/TITLE.png" alt="Título da Página">
+        </div>
+
+        <div class="qtd-register">
+            <input type="text" id="qtd-register" onkeypress="return isNumberKey(event)" placeholder="Quantos heróis você quer ver?">
+            <button id="filter">🔍</button>
+        </div>
+
+        <div class="container">
+            <div class="row" id="marvel-row">
+
+            </div>
+        </div>
+
+<footer>
+    <p>🌷 Desenvolvido por Caroline Casagrande | Curso CoreBiz 🌷</p>
+</footer>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
+
